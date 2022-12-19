@@ -1,0 +1,268 @@
+/* Текст (основний колір) #2E2F42 */
+
+/* Текст (вторинний колір) #434455 */
+
+/* Текст (акцентний колір) #E7E9FC */
+
+/* Лого та кнопка #4D5AE5 */
+
+/* Текст заголовка білий #FFFFFF */
+
+/* Фон акцентний темно синій #2E2F42 */
+
+/* Фон первинний світлий #FFFFFF */
+
+/* Фон вторинний світло-блакитний #F4F4FD */
+
+/* Фон підкладок під фото #E7E9FC */
+
+.site-body{}
+
+:root{
+    --text-color:#2E2F42;
+}
+:root{
+    --background-color:#2E2F42;
+}
+:root{
+    --active-color:#4D5AE5;
+}
+
+/* ------------------HEADER------------------ */
+
+body {font-family: 'Roboto', sans-serif;
+      background-color: #FFFFFF;
+      color: #434455;}
+
+
+.header-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;}
+
+.span-studio{color: #2E2F42;}
+.span-studio:hover {
+    color: var(--active-color);
+}
+
+.span-studio:focus {
+    color: var(--active-color);
+   }
+
+.header-logo:hover {
+    color: var(--active-color);
+    }
+
+    /* Site Navigation */
+
+.list {list-style: none;}
+.link {text-decoration: none;}
+
+.site-navigation a{
+color: #2E2F42;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 1.5;
+line-height: 24px;
+}
+
+.site-authorization a{
+color: #2E2F42;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.header-link:hover{
+    color: var(--active-color);
+}
+
+.header-link:focus{
+    color: var(--active-color);
+}
+
+.header-tel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+
+.header-mail{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+    
+.header-mail:hover,
+.header-mail:focus{
+    color: var(--active-color);
+}
+
+.header-tel:hover,
+.header-tel:focus{
+    color: var(--active-color);
+}
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.header-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    }
+
+
+/* ------------------HERO------------------ */
+
+.hero {
+    background-color: var(--background-color);
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    align-items: center;
+    display: flex;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.hero-title{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+
+/* ------------------SECTION PROBLEM------------------ */
+
+.solution {
+}
+.solution-title {
+}
+.solution-list {
+}
+.solution-item {
+}
+.solution-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+
+/* --------------------SERVICES ----------------*/
+
+.services {
+}
+.services-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+.services-list {
+}
+
+
+/* --------------------TEAM -------------------*/
+
+.team {
+}
+.team-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+.team-list {
+}
+.team-item {
+}
+.team-photo {
+}
+.team-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+
+/*----------------- FOOTER----------------- */
+
+.footer{
+    background-color: var(--background-color);
+}
+
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-span{
+    color: var(--active-color);
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+.footer-logo:hover,
+.footer-logo:focus{
+    color: var(--active-color);
+}
