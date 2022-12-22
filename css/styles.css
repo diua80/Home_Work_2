@@ -27,6 +27,13 @@
     --FOTTER-P:#E7E9FC;
     --authorization:#434455;
     --white:#FFFFFF;
+    --portfolio-btn:#e7e9fc;
+    --portfolio-text-btn:#4D5AE5;
+    --portfolio-text-hover-btn:#fff;
+    --portfolio-tlo-hover-btn:#404BBF;
+
+
+
 
 }
 .site-body{}
@@ -34,8 +41,8 @@
 /* ------------------HEADER------------------ */
 
 body {font-family: 'Roboto', sans-serif;
-      background-color: #FFFFFF;
-      color: #434455;}
+      background-color: var(--white);
+      color: var(--text-color);}
 
 
 .header-logo{
@@ -45,9 +52,9 @@ body {font-family: 'Roboto', sans-serif;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;}
+    color: var(--active-color);}
 
-.span-studio{color: #2E2F42;}
+.span-studio{color: var(--background-color);}
 .span-studio:hover {
     color: var(--active-color);
 }
@@ -66,7 +73,7 @@ body {font-family: 'Roboto', sans-serif;
 .link {text-decoration: none;}
 
 .site-navigation a{
-color: #2E2F42;
+color: var(--text-color);
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
@@ -96,7 +103,7 @@ line-height: 1.5;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--authorization);
     }
 
 .header-mail{
@@ -104,7 +111,7 @@ line-height: 1.5;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--authorization);
 }
     
 .header-mail:hover,
@@ -136,7 +143,7 @@ line-height: 1.5;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text-color);
     }
 
 
@@ -152,7 +159,7 @@ line-height: 1.5;
     line-height: 1.19;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--white)
     cursor: pointer;
     background-color: var(--active-color);
 }
@@ -168,7 +175,7 @@ line-height: 1.5;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 
@@ -255,7 +262,7 @@ line-height: 1.5;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--background-light);
 }
 
 .footer-span{
@@ -267,7 +274,7 @@ line-height: 1.5;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--FOTTER-P);
 }
 
 .footer-logo:hover,
@@ -291,14 +298,6 @@ line-height: 1.5;
 .project-img {
 }
 
-.project-li-title{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--background-light);
-}
-
 .project-title {
 font-weight: 600;
 font-size: 20px;
@@ -311,8 +310,28 @@ color: var(--authorization);
 font-size: 16px;
 line-height: 1.28;
 Letter-spacing: 0.02em;
-color: var(--authorization);
+color: var(--text-color);
 }
+
+.portfolio-btn{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--portfolio-text-btn);
+background-color: var(--portfolio-btn);   
+}
+
+.portfolio-btn-hover:hover{
+    background-color: var(--portfolio-tlo-hover-btn);
+    color: var(--portfolio-text-hover-btn)
+}
+
 
 .project-link{
 font-weight: 600;
