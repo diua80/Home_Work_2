@@ -18,6 +18,7 @@
 
 :root{
     --text-color:#2E2F42;
+    --title-color:#434455;
     --background-color:#2E2F42;
     --active-color:#4D5AE5;
     --pressed-color:#404BBF;
@@ -26,6 +27,7 @@
     --LOGO-WEB:#4D5AE5;
     --FOTTER-P:#E7E9FC;
     --authorization:#434455;
+    --team-text:#434455;
     --white:#FFFFFF;
     --portfolio-btn:#e7e9fc;
     --portfolio-text-btn:#4D5AE5;
@@ -152,22 +154,6 @@ line-height: 1.5;
 .hero {
     background-color: var(--background-color);
 }
-.hero-btn {
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.19;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: var(--white)
-    cursor: pointer;
-    background-color: var(--active-color);
-}
-
-.btn-hover:hover,
-.btn-focus:focus{
-    background-color: var(--pressed-color);
-}
 
 .hero-title{
     font-weight: 600;
@@ -180,8 +166,25 @@ line-height: 1.5;
 
 
 
+.btn-hover:hover,
+.btn-focus:focus{
+    background-color: var(--pressed-color);
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--btn-text);
+    cursor: pointer;
+    background-color: var(--active-color);
+}
 
-/* ------------------SECTION PROBLEM------------------ */
+
+
+/* ------------------SOLUTION------------------ */
 
 .solution {
 }
@@ -197,6 +200,14 @@ line-height: 1.5;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--text-color);
+}
+
+.solution-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 
@@ -245,6 +256,14 @@ line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--text-color);
+}
+.team-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--team-text);
 }
 
 
@@ -303,7 +322,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--authorization);
+color: var(--title-color);
 }
 
 .project-text {
@@ -324,12 +343,17 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 color: var(--portfolio-text-btn);
-background-color: var(--portfolio-btn);   
+background-color: var(--portfolio-btn);
+cursor: pointer;   
 }
 
 .portfolio-btn-hover:hover{
     background-color: var(--portfolio-tlo-hover-btn);
-    color: var(--portfolio-text-hover-btn)
+    color: var(--portfolio-text-hover-btn);
+}
+.portfolio-btn-focus:focus{
+    background-color: var(--portfolio-tlo-hover-btn);
+    color: var(--portfolio-text-hover-btn);
 }
 
 
