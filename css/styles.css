@@ -16,43 +16,6 @@
 
 /* Фон підкладок під фото #E7E9FC */
 
-:root {
-    --text-color:#2E2F42;
-    --title-color:#434455;
-    --background-color:#2E2F42;
-    --active-color:#4D5AE5;
-    --pressed-color:#404BBF;
-    --btn-text:#FFFFFF; 
-    --background-light:#F4F4FD;
-    --logo-web:#4D5AE5;
-    --footer-p:#E7E9FC;
-    --authorization:#434455;
-    --team-text:#434455;
-    --white:#FFFFFF;
-    --portfolio-btn:#e7e9fc;
-    --portfolio-text-btn:#4D5AE5;
-    --portfolio-text-hover-btn:#fff;
-    --portfolio-tlo-hover-btn:#404BBF;
-}
-
-/* Текст (основний колір) #2E2F42 */
-
-/* Текст (вторинний колір) #434455 */
-
-/* Текст (акцентний колір) #E7E9FC */
-
-/* Лого та кнопка #4D5AE5 */
-
-/* Текст заголовка білий #FFFFFF */
-
-/* Фон акцентний темно синій #2E2F42 */
-
-/* Фон первинний світлий #FFFFFF */
-
-/* Фон вторинний світло-блакитний #F4F4FD */
-
-/* Фон підкладок під фото #E7E9FC */
-
 :root{
     --text-color:#2E2F42;
     --title-color:#434455;
@@ -69,17 +32,21 @@
     --portfolio-btn:#e7e9fc;
     --portfolio-text-btn:#4D5AE5;
     --portfolio-text-hover-btn:#fff;
-    --portfolio-tlo-hover-btn:#404BBF;}
+    --portfolio-tlo-hover-btn:#404BBF;
+    --footer-text:#E7E9FC;
+}
 
-
-h1,h2,h3,h4,p {
-    margin-top: 0;
-    margin-bottom: 0;}
-
-    ul,ol{
+h1,h2,h3,h4,p{
     margin-top: 0;
     margin-bottom: 0;
+}
+
+ul,ol{
     padding-left: 0;
+}
+
+img{
+    display: block;
 }
 
 .site-body{}
@@ -719,7 +686,7 @@ color: var(--title-color);
 font-size: 16px;
 line-height: 1.28;
 Letter-spacing: 0.02em;
-color: var(--text-color);
+color: var(--footer-text);
 }
 
 .portfolio-btn{
